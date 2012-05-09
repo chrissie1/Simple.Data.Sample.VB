@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SetupDatabase", "SetupDatabase\SetupDatabase.vbproj", "{B9B87C9B-42BE-40B2-A820-5CDDB8F5225E}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "1.InsertData", "..\1.InsertData\1.InsertData.vbproj", "{E50DE64F-A155-4988-8438-21C9B7109928}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "1.InsertData", "1.InsertData\1.InsertData.vbproj", "{E50DE64F-A155-4988-8438-21C9B7109928}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "2.UpdateData", "2.UpdateData\2.UpdateData.vbproj", "{B9D170F5-C867-4098-9656-50A865CB7C53}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "3.FindData", "3.FindData\3.FindData.vbproj", "{1CB4EE6A-0E4D-4DDD-9E99-1B9AE5B684C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{B9D170F5-C867-4098-9656-50A865CB7C53}.Debug|x86.Build.0 = Debug|x86
 		{B9D170F5-C867-4098-9656-50A865CB7C53}.Release|x86.ActiveCfg = Release|x86
 		{B9D170F5-C867-4098-9656-50A865CB7C53}.Release|x86.Build.0 = Release|x86
+		{1CB4EE6A-0E4D-4DDD-9E99-1B9AE5B684C9}.Debug|x86.ActiveCfg = Debug|x86
+		{1CB4EE6A-0E4D-4DDD-9E99-1B9AE5B684C9}.Debug|x86.Build.0 = Debug|x86
+		{1CB4EE6A-0E4D-4DDD-9E99-1B9AE5B684C9}.Release|x86.ActiveCfg = Release|x86
+		{1CB4EE6A-0E4D-4DDD-9E99-1B9AE5B684C9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

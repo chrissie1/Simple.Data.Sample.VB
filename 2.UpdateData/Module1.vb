@@ -3,6 +3,7 @@
 Module Module1
 
     Sub Main()
+        ' Making database object with sample data
         Dim db = SetupDatabase.SqlCompactDatabase.Setup(True)
         ' Showing data in address table with id = 1
         Dim address = db.Address.FindById(1)
