@@ -1,6 +1,6 @@
 ﻿Option Strict Off
 
-Module Module1
+Module UpdateData
 
     Sub Main()
         ' Making database object with sample data

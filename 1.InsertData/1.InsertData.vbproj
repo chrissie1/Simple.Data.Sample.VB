@@ -9,7 +9,7 @@
     </SchemaVersion>
     <ProjectGuid>{E50DE64F-A155-4988-8438-21C9B7109928}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>_1.InsertData.Module1</StartupObject>
+    <StartupObject>_1.InsertData.InsertData</StartupObject>
     <RootNamespace>_1.InsertData</RootNamespace>
     <AssemblyName>1.InsertData</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -81,7 +81,7 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="InsertData.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
