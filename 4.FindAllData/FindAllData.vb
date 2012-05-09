@@ -20,6 +20,11 @@ Module FindAllData
         For Each person In persons
             Console.WriteLine("{0} {1} {2}", person.Id, person.LastName, person.FirstName)
         Next
+        'Find Person object with address.street like "street%" 
+        persons = db.Person.FindAll(db.Address.Street.Like("street%")).WithAddress
+        For Each person In persons
+            Console.WriteLine("{0} {1} {2}", person.Id, person.LastName, person.FirstName)
+        Next
         ' Find Person object With Lastname = lastname1 and FirstName = firstname1
         persons = db.Person.FindAllByLastNameAndFirstName("lastname1", "firstname1")
         For Each person In persons
